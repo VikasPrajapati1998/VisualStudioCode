@@ -1,0 +1,1 @@
+# curt init file.
