@@ -1,0 +1,5 @@
+Line-01 : - This is a test file for python to know that how to open the file.
+Line-02 : - There is many modes to open the files.
+Line-03 : - You can read and write in a file.
+Line-04 : - This is the last point for this document.
+Line-05 : - Never leave learning of anything.

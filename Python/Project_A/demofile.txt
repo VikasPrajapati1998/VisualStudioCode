@@ -1,0 +1,21 @@
+
+This is a multi line string. Same method use to  making comments in programme.
+So never be confuse comments are a string which are not assign in any variable.
+There is a real way to giving comments in python that is using # symbol. But
+this give comment of one line. This is not multiline comment. So for multiline
+comment we use this 3 inverted commas.
+    May language have different rules and symbol for comment. you can not use
+that rule in python coz python is another programming language. 
+
+As we know that C/C++ has different method for cmment and java is also having different
+methods for comment. We are seeing this as the programming language changing the rule of
+comment is also changing.
+Markup language also having comment system to increase the readability of program. In a
+big program comments are very useful to find a place. Or to Identify a section of code
+we use comment as a mark symbol. We have seen this in python that when we start putting
+comments the color of text are changed automatically. It is set by designer. Who is
+designing that language. All the rules for any programing language is depend on its
+creator. Creator always try to make there programming language easy to write code and
+also easy to modify code.
+He is keeping this in mind that how he can make it better and unique to the other programming
+languages.
