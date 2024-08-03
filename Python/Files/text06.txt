@@ -1,0 +1,14 @@
+OpenAI is testing an A.I.-powered search engine that can access information from across 
+the internet in real time.
+The prominent A.I. start-up revealed the new prototype, SearchGPT, in a blog post on 
+Thursday. The company said it was testing the technology with a small group of users as 
+well as online publishers that teamed up with OpenAI to help build the search engine.
+“Getting answers on the web can take a lot of effort, often requiring multiple attempts 
+to get relevant results,” the company said in its blog post. “We believe that by enhancing
+the conversational capabilities of our models with real-time information from the web, 
+finding what you’re looking for can be faster and easier."
+OpenAI did not immediately respond to a request for additional comment.
+Other companies, including tech giants like Google and Microsoft, as well as start-ups 
+like the San Francisco-based Perplexity, have built similar technologies. These services
+augment traditional internet search engines with chatbot technology that generates text 
+as a way of answering questions and summarizing online information.

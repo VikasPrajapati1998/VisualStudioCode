@@ -1,0 +1,4 @@
+Arjun Prajapati
+('Ajay', 23, 15000)
+[23, 45, 56, 78, 90]
+{'Name': 'Dilip', 'Age': 25}

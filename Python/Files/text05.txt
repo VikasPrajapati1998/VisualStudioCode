@@ -1,0 +1,5 @@
+When we are reading a file or writeing a file, the next read or write
+operation is performed from the next character/byte as compared to the
+previoius read/write operation.
+Thus if we read the first character from a file using f.read(1), next call to 
+f.read(1) will automatically read the second character in the file.

@@ -1,0 +1,5 @@
+It should allow us to communicate with multiple sources and destinations.
+It should allow us to input/output varied entities.
+It should allow us to communicate in multiple ways.
+It should allow us to deal with underlying file system.
+
