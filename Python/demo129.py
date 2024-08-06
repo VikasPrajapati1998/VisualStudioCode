@@ -10,18 +10,24 @@ def main(*args):
     try:
         # When should we use .__repr__() vs .__str__() in python.
         today = datetime.datetime.now()
+        print("repr() & str() functions")
         print(repr(today))
         print(str(today))
         print()
         
+        print(".__repr__() & .__str__() methods")
         print(today.__repr__())
         print(today.__str__())
         print()
         
+        print("format & !r & !s")
         print(format(today))
         print("{}".format(today))
+        print("{!r}".format(today))
+        print("{!s}".format(today))
         print()
         
+        print("f'', f+!r, f+!s")
         print(f"{today}")
         print(f"{today!r}")
         print(f"{today!s}")
