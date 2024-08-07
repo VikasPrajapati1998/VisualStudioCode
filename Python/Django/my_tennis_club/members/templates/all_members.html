@@ -1,21 +1,15 @@
-<!Doctype html>
-<html>
-    <head>
-        <title>all_members page</title>
-    </head>
-    <body>
-        <h1>Members</h1>
-        <ul>
-            {% for x in mymembers %}
-                <li><a href="details/{{ x.id }}">{{ x.firstname }} {{ x.lastname }}</a></li>
-            {% endfor %}
-        </ul>
-    </body>
-</html>
+{% extends "master.html" %}
 
-<!--
-Do you see the {\% \%} brackets inside the HTML document?
+{% block title %}
+    My Tennis Club - List of all Members
+{% endblock %}
 
-They are Django Tags, telling Django to perform some programming logic inside these brackets.
--->
+{% block content %}
+    <h1>Member</h1>
+    <ul>
+        {% for x in mymembers %}
+            <li><a href="details/{{ x.id }}">{{ x.firstname }} {{ x.lastname }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
 
