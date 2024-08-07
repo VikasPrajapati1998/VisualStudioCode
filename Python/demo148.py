@@ -2,7 +2,7 @@ def main(*args):
     """_summary_: 
     """
     try:
-        pass
+        print("Hello Programmer.")
     
     except Exception as e:
         print("main error : ", e)
