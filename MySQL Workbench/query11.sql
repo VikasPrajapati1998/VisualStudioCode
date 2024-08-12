@@ -43,4 +43,6 @@ UPDATE student SET city = 'Delhi' WHERE roll = 39;
 UPDATE student SET city = 'Delhi' WHERE roll = 40;
 UPDATE student SET city = 'Delhi' WHERE roll = 41;
 UPDATE student SET city = 'Noida' WHERE roll = 42;
+UPDATE student SET city = 'Ayodhya' WHERE roll = 43;
+UPDATE student SET city = 'Ayodhya' WHERE roll = 44;
 

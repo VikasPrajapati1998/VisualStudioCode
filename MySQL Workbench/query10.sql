@@ -52,4 +52,6 @@ INSERT INTO student (roll, class, name, fatherName, motherName, address, pin, mo
 (39, '11th', 'Pooja Yadav', 'Ramesh Yadav', 'Suman Yadav', '3639 M4, Patparganj, Delhi', '110092', '9876543248'),
 (40, '11th', 'Rajesh Kumar', 'Suraj Kumar', 'Geeta Kumar', '3740 N5, Vikas Puri, Delhi', '110018', '9876543249'),
 (41, '12th', 'Kavita Rani', 'Manoj Rani', 'Suman Rani', '3841 O6, Dwarka, Delhi', '110075', '9876543250'),
-(42, '12th', 'Nisha Gupta', 'Rajeev Gupta', 'Nidhi Gupta', '3942 P7, Greater Noida', '201308', '9876547606');
+(42, '12th', 'Nisha Gupta', 'Rajeev Gupta', 'Nidhi Gupta', '3942 P7, Greater Noida', '201308', '9876547606')
+(43, "12th", "Aryan Singh", "Arjun Prajapati", "Pihu Chaubey", "Maharua, Akbarpur, Ambedkar Nagar", "224168", "9555366649"),
+(44, "11th", "Sudhanshu Mishra", "Ghanshyam Mishra", "Anamika Dubey", "Bikapur, Akbarpur", "224149", "6394525157");
