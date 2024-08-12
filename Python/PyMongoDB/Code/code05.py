@@ -47,7 +47,6 @@ def main(*args):
             print(x)
         print()
         
-        '''
         # delete document
             # delete one documents
         myquery = {"address": "Mountain 21"}
@@ -67,16 +66,7 @@ def main(*args):
         
         # delete collection
         mycol.drop()
-        '''
         
-        # update collection
-        print("-----------------------------------------------------------")
-        myquery = {"address": "Valley 345"}
-        newvalues = {"$set": {"address": "Canyon 123"}}
-        mycol.update_one(myquery, newvalues)
-        for x in mycol.find():
-            print(x)
-        print()
         
     
     except Exception as e:
