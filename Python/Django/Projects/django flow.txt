@@ -1,0 +1,50 @@
+$python --version
+$pip install django
+$python -m django --version
+$pip freeze
+
+# Flow
+	user <-----> django <-----> url <-----> view 
+											|- Model <-----> database(default db sqlite3)
+											|- Templates (html, css)
+
+
+$django-admin startproject wscubetech
+$python manage.py runserver 4444(optional)
+$python manage.py migrate
+
+Project Name = "wscubetech"
+
+wscubetech
+	|- manage.py
+	|- db.sqlite3 (migrate)
+	|- wscubetech (app)
+		|- __pycache__
+		|- __init__.py
+		|- asgi.py
+		|- settings.py
+		|- urls.py
+		|- wsgi.py
+		|- views.py
+	|- templates (html, css)
+	|- static (JavaScript)
+	|- media (images, videos)
+
+# migration & migrate
+settings.py
+	DATABASES = {
+		'default': {
+			'ENGINE': 'django.db.backends.sqlite3',
+			'NAME': BASE_DIR / 'db.sqlite3',
+		}
+	}
+
+- When we do migrate. It create default database and tables and keep it into db.sqlite3 database.
+- Migrate command:
+	$python manage.py make-migrations  (when we create new model)
+	$python manage.py migrate (migrate database (create tables))
+- Use dbbrowser to see the tables inside database.
+- We can create super user. Super user can go in django-admin
+- Install db browser for sqlite
+
+# Create Superuser in Django
