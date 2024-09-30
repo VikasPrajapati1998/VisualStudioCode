@@ -1,0 +1,54 @@
+HVMS (Heavy Vehicle Management System)
+HV Assigner
+HV Assigner Manager
+Truck Assignment
+Trip Approval
+Load Management
+Vehicle Allocation
+Driver Management
+Route Optimization
+Fleet Management
+Truck Assignment Board
+Trip Detail Page
+Assign Load Page
+Trip Approval Status Board
+Assigned Trucks Table
+Assign
+Approve
+Reject
+Send Back
+Extend Time
+Change Truck
+Change Quantity
+Trucks
+Trips
+Loads
+Drivers
+Routes
+Fleets
+Vehicle Utilization
+Route Efficiency
+Load Optimization
+Driver Productivity
+Fleet Management
+Heavy Vehicle
+Assignment
+Approval
+Trip
+Load
+Assigner
+Manager
+Board
+Detail
+Truck
+Assign
+Approve
+Reject
+Change
+Extend
+Send
+Status
+Quantity
+Time
+Location
+
