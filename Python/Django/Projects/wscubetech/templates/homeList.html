@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <style>
+            .main{
+                width: 100%;
+                height: auto;
+                color: yellow;
+                background-color: red;
+                padding: 20px;
+                font-size: 30px;
+            }
+            .odd_main{
+                widht: 100%;
+                height: auto;
+                color: blue;
+                background-color: silver;
+                padding: 5px;
+                font-size: 20px;
+            }
+            .even_main{
+                widht: 100%;
+                height: auto;
+                color: red;
+                background-color: olive;
+                padding: 5px;
+                font-size: 20px;
+            }
+        </style>
+    <body bgcolor="skyblue">
+        <div>
+            <div class="main">
+                <h1>
+                    {{user}}</br>
+                    Welcome to django list.</br>
+                    {{city}}
+                </h1>
+            </div>
+            <div>
+                <div class="odd_main">
+                    <h3>
+                        {% for n in numbers %}
+                            {{forloop.counter}}. : {{n}} </br>
+                        {% endfor %}
+
+                        {% if numbers|length > 0 %}
+                            Lenght of list: {{numbers|length}} </br>
+                        {% else %}
+                            No data in list.
+                        {% endif %}
+                    </h3>
+                </div>
+                
+                <div class="even_main">
+                    <h3>
+                        {% for n in numbers %}
+                            {% if n|divisibleby:2 %}
+                                {{forloop.counter}}. : {{n}}, Even</br>
+                            {% else %}
+                                {{forloop.counter}}. : {{n}}, Odd</br>
+                            {% endif %}
+                        {% endfor %}
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

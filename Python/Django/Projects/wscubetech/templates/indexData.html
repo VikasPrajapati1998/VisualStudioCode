@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{title}}</title>
+        <style>
+            .main{
+                width: 100%%;
+                height: auto;
+                color: yellow;
+                background-color: red;
+                padding: 20px;
+                font-size: 30px;
+            }
+            .odd_main{
+                widht: 100%;
+                height: auto;
+                color: olive;
+                background-color: cyan;
+                padding: 5px;
+                font-size: 20px;
+            }
+            .even_main{
+                widht: 100%;
+                height: auto;
+                color: maroon;
+                background-color: teal;
+                padding: 5px;
+                font-size: 20px;
+            }
+        </style>
+    <body bgcolor="skyblue">
+        <div class="main">
+            <h1>
+                {{user}}</br>
+                Welcome to django. | {{city}}.</br>
+                {{courses}} </br>
+            </h1>
+        </div>
+
+        <div class="odd_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.counter}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+
+        <div class="even_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.counter0}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+
+        <div class="odd_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.revcounter}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+
+        <div class="even_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.revcounter0}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+
+        <div class="odd_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.first}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+
+        <div class="even_main">
+            <h3>
+                {% for n in courses %}
+                <div>{{forloop.last}}. {{n}}</div>
+                {% endfor %}
+            </h3>
+        </div>
+        <div class="odd_main">
+            <h3>
+                <table border="2", cellpadding="10px">
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                    </tr>
+                    {% for dct in student_details %}
+                    <tr>
+                        <td>{{dct.name}}</td>
+                        <td>{{dct.phone}}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </h3>
+        </div>
+        <div class="even_main">
+            <h3>
+                {% for n in numbers %}
+                    {{ n }},
+                {% endfor %}
+            </br>
+                {% for n in numbers %}
+                    {% if n > 50 %}
+                        {{ n }},
+                    {% endif %}
+                {% endfor %}
+            </br>
+                {% for n in numbers %}
+                    {% if n < 50 %}
+                        {{ n }},
+                    {% endif %}
+                {% endfor %}
+            </br>
+                {% if numbers|length > 0 %}
+                    Length of list: {{numbers|length}}
+                {% else %}
+                    No data found.
+                {% endif %}
+            </h3>
+        </div>
+    </body>
+</html>
